@@ -1,0 +1,9 @@
+[submodule "Code/SAvVy"]
+	path = Code/SAvVy
+	url = https://github.com/NikEfth/SAvVy.git
+[submodule "Code/STIR"]
+	path = Code/STIR
+	url = https://github.com/UCL/STIR.git
+[submodule "Code/libfreenect"]
+	path = Code/libfreenect
+	url = https://github.com/OpenKinect/libfreenect.git
