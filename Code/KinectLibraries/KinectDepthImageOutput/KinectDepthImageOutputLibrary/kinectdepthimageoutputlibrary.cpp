@@ -4,18 +4,18 @@ namespace KinectDepthImageOutputLibrary
 {
     namespace
     {
-        int HelloWorld()
+        string start()
         {
-            cout << "Hello World!" << endl;
-
-            return 0;
+            return "KinectDepthImageOutputLibrary kinectdepthimageoutputlibrary:   Start\r\n";
         }
     }
 
-    int KinectDepthImageOutputLibraryMain()
+    string KinectDepthImageOutputLibraryMain()
     {
-        HelloWorld();
+        string output = string();
 
-        return 0;
+        output += start();
+
+        return output;
     }
 }

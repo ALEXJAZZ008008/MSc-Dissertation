@@ -6,11 +6,18 @@
 using namespace std;
 using namespace KinectDepthImageOutputWrapper;
 
+int start()
+{
+    cout << "KinectDepthImageOutputWrapper main:    Start" << endl;
+
+    return 0;
+}
+
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    cout << "Hello World!" << endl;
+    start();
 
     KinectDepthImageOutputToConsole();
 

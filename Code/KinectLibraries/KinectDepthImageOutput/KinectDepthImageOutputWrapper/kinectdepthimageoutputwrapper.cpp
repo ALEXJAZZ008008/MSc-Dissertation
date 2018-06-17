@@ -2,11 +2,21 @@
 
 namespace KinectDepthImageOutputWrapper
 {
+    namespace
+    {
+        int start()
+        {
+            cout << "KinectDepthImageOutputWrapper kinectdepthimageoutputwrapper:   Start" << endl;
+
+            return 0;
+        }
+    }
+
     int KinectDepthImageOutputToConsole()
     {
-        cout << "Hello World!" << endl;
+        start();
 
-
+        cout << KinectDepthImageOutputLibraryMain() << endl;
 
         return 0;
     }
