@@ -1,0 +1,10 @@
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/install/strip.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/install/local.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/KinectDepthImageOutputWrapper.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/KinectDepthImageOutputLibrary.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/edit_cache.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/list_install_components.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/install.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/KinectDepthImageOutputWrapper_autogen.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Default/CMakeFiles/KinectDepthImageOutputLibrary_autogen.dir
