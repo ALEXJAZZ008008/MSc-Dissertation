@@ -18,6 +18,11 @@ endif()
 # Find the Qt components
 find_package(Qt5 COMPONENTS Core Gui Widgets REQUIRED)
 
+set(FREENECT_INCLUDE_DIR "default value" CACHE FILEPATH "description")
+set(FREENECT_LIBRARY "default value" CACHE FILEPATH "description")
+
+include_directories(${FREENECT_INCLUDE_DIR})
+
 # -- This is required in order to build QT elements
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
