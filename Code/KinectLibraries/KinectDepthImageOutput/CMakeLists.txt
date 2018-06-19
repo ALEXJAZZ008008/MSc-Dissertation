@@ -27,9 +27,13 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 add_library(KinectDepthImageOutputLibrary "")
 
 include_directories(KinectDepthImageOutputLibrary)
+include_directories(KinectMotorControlWrapper)
+
 
 include(KinectDepthImageOutputLibrary/CMakeLists.txt)
 include(KinectDepthImageOutputWrapper/CMakeLists.txt)
+include(KinectMotorControlWrapper/CMakeLists.txt)
+
 
 set(CONFIGURED_ONCE TRUE CACHE INTERNAL
     "A flag showing that CMake has configured at least once.")
