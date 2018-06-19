@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Control Kinect motor</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="3" column="0">
@@ -38,6 +38,9 @@
        <property name="text">
         <string>Up</string>
        </property>
+       <property name="icon">
+        <iconset theme="go-up"/>
+       </property>
       </widget>
      </item>
      <item row="3" column="1">
@@ -45,12 +48,18 @@
        <property name="text">
         <string>Down</string>
        </property>
+       <property name="icon">
+        <iconset theme="go-down"/>
+       </property>
       </widget>
      </item>
      <item row="3" column="2">
       <widget class="QPushButton" name="pushButton_3">
        <property name="text">
         <string>Info</string>
+       </property>
+       <property name="icon">
+        <iconset theme="dialog-information"/>
        </property>
       </widget>
      </item>
@@ -60,6 +69,13 @@
      <item row="1" column="0" colspan="3">
       <widget class="QTextEdit" name="_lbl_output_msg"/>
      </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="_psh_disconnect">
+       <property name="text">
+        <string>Disconnect</string>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="0">
       <widget class="QPushButton" name="_psh_connect">
        <property name="text">
@@ -68,11 +84,17 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="_psh_disconnect">
-       <property name="text">
-        <string>Disconnect</string>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
        </property>
-      </widget>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
      </item>
     </layout>
    </item>
