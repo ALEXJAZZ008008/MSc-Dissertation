@@ -1,0 +1,2 @@
+/usr/bin/ar qc libKinectDepthImageOutputLibrary.a  CMakeFiles/KinectDepthImageOutputLibrary.dir/KinectDepthImageOutputLibrary/kinectdepthimageoutputlibrary.cpp.o CMakeFiles/KinectDepthImageOutputLibrary.dir/KinectDepthImageOutputLibrary_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libKinectDepthImageOutputLibrary.a

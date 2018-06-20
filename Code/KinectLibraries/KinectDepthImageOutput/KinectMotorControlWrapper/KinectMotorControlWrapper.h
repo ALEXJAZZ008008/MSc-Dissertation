@@ -1,18 +1,19 @@
 #ifndef KINECTMOTORCONTROLWRAPPER_H
 #define KINECTMOTORCONTROLWRAPPER_H
 
-#include "kinectdepthimageoutputlibrary.h"
-
 #include <QDialog>
+#include <QMessageBox>
 #include <QPushButton>
 #include <QLabel>
+#include <QTimer>
 
 #include "libfreenect.h"
+#include "ui_motor_control.h"
 
 using namespace std;
-using namespace KinectDepthImageOutputLibrary;
 
-namespace Ui {
+namespace Ui
+{
 class motor_control;
 }
 
@@ -28,39 +29,61 @@ class MotorControl : public QDialog
     Q_OBJECT
 
 public:
+
+    static MotorControl &getInstance( );
+
+    MotorControl(MotorControl &) = delete;
+    void operator = (MotorControl &) = delete;
+
+    inline Ui::motor_control * get_ui() const
+    {
+        return m_ui_ptr;
+    }
+
+private:
+
     explicit MotorControl(QDialog *parent = 0);
     ~MotorControl();
 
-    double get_camera_tilt();
+    Ui::motor_control *m_ui_ptr;
 
-    void set_camera_tilt(double &);
+    //! Holds information about the usb context.
+    freenect_context *m_fctx_ptr;
+
+    //! Holds device information.
+    freenect_device *m_fdev_ptr;
+
+    //! Current tilt state.
+    freenect_raw_tilt_state *m_current_tilt_state_ptr;
+
+    QTimer *m_update_ptr;
+
+    double m_increment;
+
+    //! Number of devices connected to the PC.
+    int m_num_devices;
+
+    static void depth_callback(freenect_device *, void *, unsigned int);
+    static void video_callback(freenect_device *, void *, unsigned int);
+
+    //! Create connections
+    void create_connections();
+
+    int update_tilt_state();
+    double get_camera_tilt();
+    int set_camera_tilt(double);
+    int update_camera_tilt(double);
+
+signals:
 
 private slots:
+    void update();
+
     void on__psh_connect_clicked();
 
     void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
-
-private:
-    Ui::motor_control *ui;
-    //! Create connections
-    void create_connections();
-
-    int update_tilt_state();
-    //! Holds information about the usb context.
-    freenect_context* fc;
-    //! Holds device information.
-    freenect_device* fdev;
-    //! Current tilt state.
-    freenect_raw_tilt_state* current_tilt_state;
-    //! Number of devices connected to the PC.
-    int num_devices;
-
-    double current_tilt_deg;
-
 };
-
-
 
 #endif // KINECTDEPTHIMAGEOUTPUTWRAPPER_H

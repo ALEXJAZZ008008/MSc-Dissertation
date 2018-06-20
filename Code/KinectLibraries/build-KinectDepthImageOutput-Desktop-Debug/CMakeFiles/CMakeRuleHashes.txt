@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+7ba891372cc8d413f18584909c2fe84d CMakeFiles/KinectDepthImageOutputLibrary_autogen
+12c0c1e71c4ff74feeb1930309a1a715 CMakeFiles/KinectDepthImageOutputWrapper_autogen
+fbc05392059534c0b5cf82c0cee28efa CMakeFiles/KinectMotorControlWrapper_autogen

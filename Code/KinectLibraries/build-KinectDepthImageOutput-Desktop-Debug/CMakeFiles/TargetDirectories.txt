@@ -1,0 +1,12 @@
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/install/strip.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/install/local.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/install.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/KinectDepthImageOutputLibrary.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/KinectDepthImageOutputWrapper.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/KinectMotorControlWrapper.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/KinectDepthImageOutputLibrary_autogen.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/KinectDepthImageOutputWrapper_autogen.dir
+/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/CMakeFiles/KinectMotorControlWrapper_autogen.dir
