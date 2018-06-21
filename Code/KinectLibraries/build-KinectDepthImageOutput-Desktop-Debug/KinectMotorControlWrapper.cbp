@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="KinectMotorControlWrapper"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\KinectDepthImageOutputLibrary\;CMake Files\KinectDepthImageOutputWrapper\;CMake Files\KinectMotorControlWrapper\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectDepthImageOutputLibrary">
+				<Option output="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/libKinectDepthImageOutputLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputLibrary_autogen/include"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper"/>
+					<Add directory="/opt/include/libfreenect"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectDepthImageOutputLibrary"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectDepthImageOutputLibrary/fast">
+				<Option output="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/libKinectDepthImageOutputLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputLibrary_autogen/include"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper"/>
+					<Add directory="/opt/include/libfreenect"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectDepthImageOutputLibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectDepthImageOutputWrapper">
+				<Option output="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputWrapper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputWrapper_autogen/include"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper"/>
+					<Add directory="/opt/include/libfreenect"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectDepthImageOutputWrapper"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectDepthImageOutputWrapper/fast">
+				<Option output="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputWrapper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputWrapper_autogen/include"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper"/>
+					<Add directory="/opt/include/libfreenect"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectDepthImageOutputWrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectMotorControlWrapper">
+				<Option output="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectMotorControlWrapper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectMotorControlWrapper_autogen/include"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper"/>
+					<Add directory="/opt/include/libfreenect"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectMotorControlWrapper"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectMotorControlWrapper/fast">
+				<Option output="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectMotorControlWrapper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectMotorControlWrapper_autogen/include"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary"/>
+					<Add directory="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper"/>
+					<Add directory="/opt/include/libfreenect"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectMotorControlWrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectDepthImageOutputLibrary_autogen">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectDepthImageOutputLibrary_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectDepthImageOutputWrapper_autogen">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectDepthImageOutputWrapper_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KinectMotorControlWrapper_autogen">
+				<Option working_dir="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 KinectMotorControlWrapper_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary/kinectdepthimageoutputlibrary.cpp">
+			<Option target="KinectDepthImageOutputLibrary"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary/kinectdepthimageoutputlibrary.h">
+			<Option target="KinectDepthImageOutputLibrary"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputWrapper/kinectdepthimageoutputwrapper.cpp">
+			<Option target="KinectDepthImageOutputWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputWrapper/kinectdepthimageoutputwrapper.h">
+			<Option target="KinectDepthImageOutputWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputWrapper/main.cpp">
+			<Option target="KinectDepthImageOutputWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper/KinectMotorControlWrapper.cpp">
+			<Option target="KinectMotorControlWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper/KinectMotorControlWrapper.h">
+			<Option target="KinectMotorControlWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper/main.cpp">
+			<Option target="KinectMotorControlWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper/motor_control.ui">
+			<Option target="KinectMotorControlWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputLibrary_autogen/mocs_compilation.cpp">
+			<Option target="KinectDepthImageOutputLibrary"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectDepthImageOutputWrapper_autogen/mocs_compilation.cpp">
+			<Option target="KinectDepthImageOutputWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/build-KinectDepthImageOutput-Desktop-Debug/KinectMotorControlWrapper_autogen/mocs_compilation.cpp">
+			<Option target="KinectMotorControlWrapper"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputLibrary/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\KinectDepthImageOutputLibrary\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectDepthImageOutputWrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\KinectDepthImageOutputWrapper\"/>
+		</Unit>
+		<Unit filename="/home/nikos/Documents/MSc-Dissertation/Code/KinectLibraries/KinectDepthImageOutput/KinectMotorControlWrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\KinectMotorControlWrapper\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
