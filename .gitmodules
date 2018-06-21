@@ -7,3 +7,12 @@
 [submodule "Code/libfreenect"]
 	path = Code/libfreenect
 	url = https://github.com/OpenKinect/libfreenect.git
+[submodule "Code/pcl"]
+	path = Code/pcl
+	url = https://github.com/PointCloudLibrary/pcl.git
+[submodule "Code/libfreenect2"]
+	path = Code/libfreenect2
+	url = https://github.com/OpenKinect/libfreenect2.git
+[submodule "Code/KinectLibraries"]
+	path = Code/KinectLibraries
+	url = https://github.com/ALEXJAZZ008008/KinectLibraries.git
