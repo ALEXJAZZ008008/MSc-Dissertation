@@ -1,9 +1,6 @@
 [submodule "Code/external/STIR"]
 	path = Code/external/STIR
 	url = git@github.com:UCL/STIR.git
-[submodule "Code/external/SAvVy"]
-	path = Code/external/SAvVy
-	url = git@github.com:NikEfth/SAvVy.git
 [submodule "Code/external/pcl"]
 	path = Code/external/pcl
 	url = git@github.com:PointCloudLibrary/pcl.git
