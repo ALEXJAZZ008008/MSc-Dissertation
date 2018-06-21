@@ -1,0 +1,15 @@
+[submodule "Code/external/STIR"]
+	path = Code/external/STIR
+	url = git@github.com:UCL/STIR.git
+[submodule "Code/external/SAvVy"]
+	path = Code/external/SAvVy
+	url = git@github.com:NikEfth/SAvVy.git
+[submodule "Code/external/libfreenect"]
+	path = Code/external/libfreenect
+	url = git@github.com:OpenKinect/libfreenect.git
+[submodule "Code/external/pcl"]
+	path = Code/external/pcl
+	url = git@github.com:PointCloudLibrary/pcl.git
+[submodule "Code/external/libfreenect2"]
+	path = Code/external/libfreenect2
+	url = git@github.com:OpenKinect/libfreenect2.git

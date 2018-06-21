@@ -35,6 +35,11 @@ if(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 endif()
 message(STATUS "KinectSuite install: ${CMAKE_INSTALL_PREFIX}")
 
+
+add_subdirectory(external)
+
+include(ExternalProject)
+
 if (ENABLE_LibFreenect_1)
 	include(${CMAKE_SOURCE_DIR}/libfreenect/CMakeLists.txt)
 endif()
