@@ -1,1 +1,0 @@
-/usr/bin/gcc -Wall -O2  -Wall -O2  -O0 -g -DDEBUG=1  -rdynamic CMakeFiles/freenect-tiltdemo.dir/tiltdemo.c.o  -o ../bin/freenect-tiltdemo -Wl,-rpath,/home/nikos/Documents/MSc-Dissertation/Code/build-libfreenect-Desktop-Debug/lib: ../lib/libfreenect_sync.so.0.6.0 -lm ../lib/libfreenect.so.0.6.0 -lusb-1.0 -lpthread 
