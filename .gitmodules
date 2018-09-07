@@ -1,0 +1,12 @@
+[submodule "Code/KinectLibraries"]
+	path = Code/KinectLibraries
+	url = https://github.com/ALEXJAZZ008008/KinectLibraries.git
+[submodule "Code/PointCloudProcessing"]
+	path = Code/PointCloudProcessing
+	url = https://github.com/ALEXJAZZ008008/PointCloudProcessing.git
+[submodule "Code/KinectPointCloudExperiment"]
+	path = Code/KinectPointCloudExperiment
+	url = https://github.com/ALEXJAZZ008008/KinectPointCloudExperiment.git
+[submodule "Code/KinectPointCloudTest"]
+	path = Code/KinectPointCloudTest
+	url = https://github.com/ALEXJAZZ008008/KinectPointCloudTest.git
