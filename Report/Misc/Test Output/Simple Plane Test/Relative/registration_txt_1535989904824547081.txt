@@ -1,0 +1,129 @@
+Registration Type: ICP
+Registration Style: Continuous
+Movement Type: Distance
+Movement Distance: 1.000000
+Translation Estimation: Automatic
+Tracking Type: Complex
+Threshold: 1000.000000
+Offset: -10
+Focal Length: 0.002100
+Smoothing Size: 1
+Smoothing Deviation: 1.000000
+Filter (xyz): 1.000000, 1.000000, 1.000000
+Transformation Epsilon: 0.010000
+Iterations: 100
+Rotation Guess: 0.000000
+Translation Guess (xyz): 0.000000, 0.000000, 0.000000
+Signal Magnitude: 50.000000
+Signal (xyz): 0.000000, 0.000000, 0.000000
+File Paths 0 1: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_1.pcd
+File Paths 0 2: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_2.pcd
+File Paths 0 3: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_3.pcd
+File Paths 0 4: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_4.pcd
+File Paths 0 5: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_5.pcd
+File Paths 0 6: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_6.pcd
+File Paths 0 7: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_7.pcd
+File Paths 0 8: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_8.pcd
+File Paths 0 9: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_9.pcd
+File Paths 0 10: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_10.pcd
+File Paths 0 11: /home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_0.pcd,/home/nikos/Documents/MSc-Dissertation/Report/Misc/Test Data/Simple Plane Test/point_cloud_test_11.pcd
+Registration 0 1:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 1: 38.666550,-16.495033,104.954422,1.000000
+Centroid Differences 0 1: 20.167114,2.012743,4.954422,0.000000
+Signal 0 1:
+Signal Mean Square Error 0 1: 0.157254
+Signal Transform 0 1: 0.994428,-0.053583,0.090784,4.952641,0.061812,0.993988,-0.090409,8.978785,-0.085393,0.095517,0.991756,9.531178,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 1: 0.572870
+Transform 0 1: 0.994420,-0.053724,0.090784,4.955229,0.061954,0.993979,-0.090409,8.975059,-0.085380,0.095529,0.991756,9.531173,0.000000,0.000000,0.000000,1.000000
+Registration 0 2:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 2: 56.790272,-13.738134,109.035439,1.000000
+Centroid Differences 0 2: 38.290836,4.769642,9.035439,0.000000
+Signal 0 2:
+Signal Mean Square Error 0 2: 0.146404
+Signal Transform 0 2: 0.974315,-0.134243,0.180819,13.979696,0.166632,0.969855,-0.177839,18.000423,-0.151493,0.203400,0.967308,19.491947,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 2: 0.530187
+Transform 0 2: 0.974319,-0.134210,0.180819,13.978579,0.166599,0.969861,-0.177839,18.001505,-0.151500,0.203396,0.967308,19.493010,0.000000,0.000000,0.000000,1.000000
+Registration 0 3:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 3: 74.318802,-10.085920,112.823669,1.000000
+Centroid Differences 0 3: 55.819366,8.421856,12.823669,0.000000
+Signal 0 3:
+Signal Mean Square Error 0 3: 0.128189
+Signal Transform 0 3: 0.938767,-0.214880,0.269361,22.216324,0.285604,0.922581,-0.259407,26.402935,-0.192764,0.320450,0.927452,30.338066,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 3: 0.456768
+Transform 0 3: 0.938760,-0.214911,0.269361,22.216936,0.285635,0.922572,-0.259407,26.400969,-0.192754,0.320457,0.927452,30.337282,0.000000,0.000000,0.000000,1.000000
+Registration 0 4:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 4: 90.381516,-5.948565,117.046921,1.000000
+Centroid Differences 0 4: 71.882080,12.559212,17.046921,0.000000
+Signal 0 4:
+Signal Mean Square Error 0 4: 0.047984
+Signal Transform 0 4: 0.888279,-0.290635,0.355679,29.750956,0.410867,0.848943,-0.332423,33.872314,-0.205336,0.441417,0.873505,42.404846,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 4: 0.330061
+Transform 0 4: 0.888290,-0.290601,0.355679,29.753340,0.410834,0.848959,-0.332422,33.873562,-0.205353,0.441409,0.873505,42.404240,0.000000,0.000000,0.000000,1.000000
+Registration 0 5:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 5: 104.764709,-1.728076,122.362762,1.000000
+Centroid Differences 0 5: 86.265274,16.779699,22.362762,0.000000
+Signal 0 5:
+Signal Mean Square Error 0 5: 0.078565
+Signal Transform 0 5: 0.825210,-0.355354,0.439060,36.275799,0.532404,0.748971,-0.394480,39.849228,-0.188661,0.559280,0.807244,56.050114,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 5: 0.318931
+Transform 0 5: 0.825187,-0.355406,0.439060,36.276829,0.532451,0.748937,-0.394480,39.847755,-0.188625,0.559292,0.807243,56.048771,0.000000,0.000000,0.000000,1.000000
+Registration 0 6:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 6: 117.477661,1.804959,129.163528,1.000000
+Centroid Differences 0 6: 98.978226,20.312735,29.163528,0.000000
+Signal 0 6:
+Signal Mean Square Error 0 6: 0.120766
+Signal Transform 0 6: 0.751815,-0.406978,0.518813,42.001377,0.643682,0.623684,-0.443533,43.743069,-0.143067,0.667399,0.730852,71.361633,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 6: 0.331682
+Transform 0 6: 0.751829,-0.406953,0.518813,42.003330,0.643661,0.623706,-0.443533,43.742077,-0.143089,0.667395,0.730852,71.359337,0.000000,0.000000,0.000000,1.000000
+Registration 0 7:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 7: 128.754944,3.957525,137.611176,1.000000
+Centroid Differences 0 7: 110.255508,22.465302,37.611176,0.000000
+Signal 0 7:
+Signal Mean Square Error 0 7: 0.119605
+Signal Transform 0 7: 0.669766,-0.445280,0.594286,47.135029,0.739380,0.474244,-0.477967,44.754288,-0.069008,0.759518,0.646851,88.141838,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 7: 0.289452
+Transform 0 7: 0.669764,-0.445283,0.594286,47.134510,0.739382,0.474241,-0.477967,44.754665,-0.069004,0.759518,0.646851,88.142296,0.000000,0.000000,0.000000,1.000000
+Registration 0 8:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 8: 138.809784,3.888212,147.622665,1.000000
+Centroid Differences 0 8: 120.310349,22.395988,47.622665,0.000000
+Signal 0 8:
+Signal Mean Square Error 0 8: 0.118274
+Signal Transform 0 8: 0.583009,-0.467035,0.664852,51.910713,0.812006,0.306662,-0.496643,42.327339,0.028062,0.829394,0.558010,106.153511,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 8: 0.264903
+Transform 0 8: 0.582992,-0.467055,0.664852,51.910461,0.812017,0.306633,-0.496643,42.326672,0.028091,0.829393,0.558010,106.153252,0.000000,0.000000,0.000000,1.000000
+Registration 0 9:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 9: 147.970505,0.709593,158.736450,1.000000
+Centroid Differences 0 9: 129.471069,19.217369,58.736450,0.000000
+Signal 0 9:
+Signal Mean Square Error 0 9: 0.051814
+Signal Transform 0 9: 0.493999,-0.472473,0.729928,56.702309,0.857492,0.125758,-0.498946,35.620255,0.143936,0.872365,0.467254,124.560333,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 9: 0.193217
+Transform 0 9: 0.493787,-0.472693,0.729928,56.704136,0.857548,0.125374,-0.498946,35.632458,0.144327,0.872300,0.467254,124.570770,0.000000,0.000000,0.000000,1.000000
+Registration 0 10:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 10: 156.813873,-6.017352,170.234604,1.000000
+Centroid Differences 0 10: 138.314438,12.490425,70.234604,0.000000
+Signal 0 10:
+Signal Mean Square Error 0 10: 0.050544
+Signal Transform 0 10: 0.404011,-0.462994,0.788971,61.951015,0.872240,-0.064985,-0.484796,24.572380,0.275716,0.884017,0.377576,142.867340,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 10: 0.166983
+Transform 0 10: 0.404016,-0.462990,0.788971,61.952599,0.872241,-0.064976,-0.484796,24.575504,0.275706,0.884020,0.377576,142.868103,0.000000,0.000000,0.000000,1.000000
+Registration 0 11:
+Source Centroid 0: 18.499435,-18.507776,100.000000,1.000000
+Target Centroid 11: 165.830917,-16.575571,181.284714,1.000000
+Centroid Differences 0 11: 147.331482,1.932205,81.284714,0.000000
+Signal 0 11:
+Signal Mean Square Error 0 11: 0.128292
+Signal Transform 0 11: 0.317482,-0.437208,0.841496,68.201012,0.853267,-0.255480,-0.454665,8.752795,0.413751,0.862353,0.291934,159.580734,0.000000,0.000000,0.000000,1.000000
+Mean Square Error 0 11: 0.246621
+Transform 0 11: 0.317453,-0.437228,0.841496,68.203056,0.853250,-0.255538,-0.454664,8.752989,0.413809,0.862325,0.291934,159.579651,0.000000,0.000000,0.000000,1.000000
+
